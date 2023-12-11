@@ -10,7 +10,7 @@
 
 ## Live Link
 
-<a href="tesoroblogsite.netlify.app">Go Live</a>
+<a href="https://tesoroblogsite.netlify.app/">Go Live</a>
 
 ## Technologies Used
 
