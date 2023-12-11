@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESORO BLOG SITE - Contact</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html" class="logo">TESORO <span>Blogsite</span></a>
+            <a href="#" class="hamburger-icon" onclick="toggleMenu()">&#9776;</a>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Menu</a>
+                <a href="about.html">About us</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="contact.html">Contacts</a>
+                <a href="contact.html" class="login">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Contact Us</h2>
+            <span class="home-subtitle">Feel free to reach to us</span>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION MAIN -->
+    <section class="contact container">
+        <div class="contact-info">
+            <h2>Drop a message</h2>
+            <p class="contact-p">Feel free to get in touch with us. We are available 24/7 to assist you.</p>
+            
+            <ul>
+                <li><span><i class="bx bxs-map"></i></span>630 Nairobi,Tom Mboya Streets 33445,Kenya</li>
+                <li><span><i class="bx bx-envelope"></i></span><a href="mailto:info@example.com">info@example.com</a></li>
+                <!-- Add more contact details as needed -->
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <form action="process_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="subject" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Welcome to Tesoro Blogsite Hub, where we strive to catch the pulse of the ever-evolving world of trending topics every day. Dive into a curated blend of the most captivating and current subjects that spark conversations</p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blogs.html">Blog posts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Phoenix Towers, 5th Floor <br> Nairobi</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:info@tesoroblog.com">info@tesoroblog.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+    <script>
+        function redirectToBestUI() {
+            // Redirect to the bestui.html page
+            window.location.href = 'components/bestui.html';
+        }
+    </script>
+</body>
+</html>

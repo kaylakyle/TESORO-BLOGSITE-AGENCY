@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESORO BLOG SITE - Blogs</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html" class="logo">TESORO <span>Blogsite</span></a>
+            <a href="#" class="hamburger-icon" onclick="toggleMenu()">&#9776;</a>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Menu</a>
+                <a href="about.html">About us</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="contact.html">Contacts</a>
+                <a href="contact.html" class="login">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Blog Section</h2>
+            <span class="home-subtitle">Check out our news and articles</span>
+        </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="tech">Tech</span>
+        <span class="filter-item" data-filter="food">Food</span>
+        <span class="filter-item" data-filter="news">News</span>
+    </div>
+    
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="post-box tech">
+            <img src="images/img1.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="blog-desc">Creating the best UI with Figma involves a combination of design principles, usability considerations, and practical techniques.</p>
+            <button class="read-more-btn" onclick="redirectToBestUI()">Read More</button>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box food">
+            <img src="./images/img8.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Technology sustainable future</a>
+            <span class="post-date">20th May 2022</span>
+            <p class="blog-desc">Technology plays a crucial role in contributing to a sustainable future in various ways</p>
+            <button class="read-more-btn" onclick="redirectToSusFut()">Read More</button>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box food">
+            <img src="./images/img2.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Healthy meal planning</a>
+            <span class="post-date">5th Nov 2022</span>
+            <p class="blog-desc">Healthy meal planning is crucial for maintaining a balanced diet and promoting overall well-being.</p>
+            <button class="read-more-btn" onclick="redirectToHealthyplan()">Read More</button>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box news">
+            <img src="./images/img9.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Technology education</a>
+            <span class="post-date">25th May 2022</span>
+            <p class="blog-desc">Technology has transformed the landscape of education, offering new and innovative ways to enhance learning experiences.</p>
+            <button class="read-more-btn" onclick="redirectToLearnedu()">Read More</button>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box tech">
+            <img src="./images/img1.1.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Successful Tech Implement</a>
+            <span class="post-date">30th June 2022</span>
+            <p class="blog-desc">Analyzing successful technology implementations involves examining various factors of technological projects.</p>
+            <button class="read-more-btn" onclick="redirectToTechimple()">Read More</button>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box tech">
+            <img src="./images/img1.jpg" alt="" class="post-img">
+            <h2 class="category">News</h2>
+            <a href="#" class="post-title">Successful Tech Implement</a>
+            <span class="post-date">30th June 2022</span>
+            <p class="blog-desc">Analyzing successful technology implementations involves examining various factors of technological projects.</p>
+            <button class="read-more-btn" onclick="redirectToTechimple()">Read More</button>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box tech">
+            <img src="./images/img5.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">Financial Technology</a>
+            <span class="post-date">28th June 2022</span>
+            <p class="blog-desc">Demystifying Fintech involves understanding its nature, components, and its impact it has on the financial industry.</p>
+            <button class="read-more-btn" onclick="redirectToFintech()">Read More</button>
+        </div>
+        <!-- Post 8 -->
+        <div class="post-box food">
+            <img src="./images/img10.jpg" alt="" class="post-img">
+            <h2 class="category">News</h2>
+            <a href="#" class="post-title">Food Evolution overtime</a>
+            <span class="post-date">10th Nov 2022</span>
+            <p class="blog-desc">Exploring the cultural significance of food over time is a fascinating journey that unveils its connections.</p>
+            <button class="read-more-btn" onclick="redirectToFoodevolve()">Read More</button>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box food">
+            <img src="./images/img2.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Food Evolution overtime</a>
+            <span class="post-date">10th Nov 2022</span>
+            <p class="blog-desc">Exploring the cultural significance of food over time is a fascinating journey that unveils its connections.</p>
+            <button class="read-more-btn" onclick="redirectToFoodevolve()">Read More</button>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Welcome to Tesoro Blogsite Hub, where we strive to catch the pulse of the ever-evolving world of trending topics every day. Dive into a curated blend of the most captivating and current subjects that spark conversations</p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blogs.html">Blog posts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Phoenix Towers, 5th Floor <br> Nairobi</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:info@tesoroblog.com">info@tesoroblog.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+
+</body>
+</html>

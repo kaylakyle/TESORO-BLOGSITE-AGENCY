@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESORO BLOG SITE</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="../index.html" class="logo">TESORO <span>Blogsite</span></a>
+            <a href="#" class="hamburger-icon" onclick="toggleMenu()">&#9776;</a>
+            <div class="nav-links" id="nav-links">
+                <a href="../index.html">Menu</a>
+                <a href="../about.html">About us</a>
+                <a href="../blogs.html">Blogs</a>
+                <a href="../contact.html">Contacts</a>
+                <a href="../contact.html" class="login">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+     <!-- CONTENT AREA -->
+     <section class="single-post container">
+        <div class="post-box tech">
+            <img src="../images/banner2.png" alt="" class="post-img">
+            <!-- <h2 class="category">Tech</h2> -->
+            <h1>Providing Practical tips and information for healthy meal planning</h1>
+            <span class="post-date">1st Sep 2022</span>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">BY ADMIN</span>
+            </div>
+            <p class="blog-title">
+                Healthy meal planning is crucial for maintaining a balanced diet and promoting overall well-being. Here are practical tips and information to help with your meal planning:
+            </p>
+            <br>
+            <p>
+                1. Understand Nutritional Needs: <br>
+                Consider individual nutritional requirements based on factors such as age, gender, activity level, and health conditions. 
+            </p>
+            <br>
+            <p>
+                2. Include a Variety of Foods: <br>
+                Incorporate a diverse range of fruits, vegetables, whole grains, lean proteins, and healthy fats to ensure a wide spectrum of nutrients.
+            </p>
+            <br>
+            <p>
+                3. Balanced Macronutrients: <br>
+                Strive for a balance of carbohydrates, proteins, and fats in each meal to provide sustained energy and support bodily functions.
+            </p>
+            <br>
+            <p>
+                4. Portion Control: <br>
+                Be mindful of portion sizes to avoid overeating. Use smaller plates and bowls to help with portion control.
+            </p>
+            <br>
+            <p>
+                5. Hydration: <br>
+                Include an adequate amount of water throughout the day. Water is essential for digestion, nutrient absorption, and overall health.
+            </p>
+            <br>
+            <p>
+                6. Meal Frequency: <br>
+                Consider smaller, more frequent meals to maintain energy levels and prevent overeating during main meals.
+            </p>
+            <br>
+            <p>
+                7. Plan Ahead: <br>
+                Schedule time for meal planning and preparation. Planning ahead can help you make healthier choices and reduce reliance on convenience foods.
+            </p>
+            <br>
+            <p>
+                8. Create a Grocery List: <br>
+                Plan your meals for the week and create a grocery list based on the ingredients you need. Stick to the list to avoid impulse purchases.
+            </p>
+            <br>
+            <p>
+                Remember, healthy meal planning is a sustainable lifestyle approach. By making gradual changes and finding a balance that works for you, you can establish long-term habits that contribute to overall health and well-being.
+            </p>
+        </div>
+    </section>
+    <section class="single-post container">
+        <div class="post-box tech">
+            <h2 class="title">Send us your blog content to be posted in our site</h2>
+            <form action="process_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Welcome to Tesoro Blogsite Hub, where we strive to catch the pulse of the ever-evolving world of trending topics every day. Dive into a curated blend of the most captivating and current subjects that spark conversations</p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blogs.html">Blog posts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Phoenix Towers, 5th Floor <br> Nairobi</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:info@tesoroblog.com">info@tesoroblog.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
